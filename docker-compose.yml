@@ -11,7 +11,7 @@ services:
     image: nginx:alpine
     container_name: nginxCont
     ports:
-      - "443:443"
+      - "80:80"
     volumes:
       - ./nginx:/etc/nginx/conf.d:ro
     depends_on:
