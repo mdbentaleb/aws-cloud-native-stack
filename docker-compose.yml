@@ -1,7 +1,7 @@
 services:
   web-app:
     build: ./app
-    image: flaskAppImg
+    image: flask-app-img
     container_name: flaskAppCont
     restart: always
     expose:
