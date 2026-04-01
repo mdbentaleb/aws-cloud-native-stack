@@ -83,7 +83,7 @@ Execute the script. It will install Docker, pull the Nginx configuration from S3
 If you ever need to manually spin up or rebuild the containers without the full script:
 ```bash
 # To start the containers in the background
-sudo docker-compose up --build -d
+sudo DOCKER_BUILDKIT=0 COMPOSE_DOCKER_CLI_BUILD=0 docker-compose up --build -d
 
 # To stop the containers and clean up
 sudo docker-compose down
