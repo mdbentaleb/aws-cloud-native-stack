@@ -57,7 +57,7 @@ To replicate this production-like environment, follow these precise steps in you
 
 ### 3. Compute (EC2 Instance)
 * **EC2 Deployment:**
-  * Launched a new EC2 instance running Ubuntu 24.04 / 22.04 LTS.
+  * Launched a new EC2 instance running Debian.
   * Attached the `EC2-S3-ReadOnly-Role` profile to the instance during launch (found under Advanced Details).
   * Captured the instance's **Public IPv4 Address** for remote access and testing.
 
