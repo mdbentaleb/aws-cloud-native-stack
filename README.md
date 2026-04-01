@@ -1,5 +1,7 @@
 # ☁️ AWS Cloud-Native Automated Stack
 
+![Project Structure](./img/AwsCloudNativeStack.png)
+
 ### **Architecting Scalable Infrastructure with Nginx, Docker & AWS**
 
 ## 📌 Project Overview
