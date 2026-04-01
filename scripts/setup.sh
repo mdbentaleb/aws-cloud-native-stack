@@ -31,7 +31,7 @@ rm -f ./nginx/default.conf
 
 
 # --- 6. Fetch Cloud Configuration from S3 ---
-/usr/local/bin/aws s3 cp s3://motorolas3/default.conf ./nginx/default.conf
+/usr/local/bin/aws s3 cp s3://flask-app-s3/default.conf ./nginx/default.conf
 
 
 # --- 7. Deploy & Run Containers ---
