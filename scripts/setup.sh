@@ -26,7 +26,7 @@ sudo usermod -aG docker $USER
 
 
 # --- 5. Clean & Prepare Directories ---
-mkdir -p nginx app
+mkdir -p nginx
 rm -f ./nginx/default.conf 
 
 
